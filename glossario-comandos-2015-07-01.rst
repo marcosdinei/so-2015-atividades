@@ -4,8 +4,8 @@ Glossário de comandos
 
 :Disciplina: Fundamentos de Sistemas Operacionais
 :Professor: Jurandy Soares
-:Nome: Seu nome completo
-:Matrícula: Sua matrícula
+:Nome: Marcos Dinei Medeiros Fontes
+:Matrícula: 20121144010184
 :Data: 01/07/2015
 
 cat
@@ -116,6 +116,6 @@ whoami
   Descrição do comando
 
 
-    write
-        Descrição do comando
+write
+  Descrição do comando
 
