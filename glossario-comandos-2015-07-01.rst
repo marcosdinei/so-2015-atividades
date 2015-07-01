@@ -9,88 +9,88 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Descrição do comando
-
+  Abrir arquivos.
+  cat arquivo
 
 cd
-  Descrição do comando
-
+  Mudar diretório.
+  cd /diretorio
 
 cowsay
-  Descrição do comando
-
+  Programa de mensagens.
+  cowsay -f kiss "beijo"
 
 echo
-  Descrição do comando
-
+  Diz o nome de uma variável de ambiente.
+  echo $HOSTNAME
 
 env
-  Descrição do comando
-
+  Lista as variáveis de ambiente.
+  env
 
 exit
-  Descrição do comando
-
+  Sai de onde tá.
+  exit
 
 help
-  Descrição do comando
-
+  Lista comandos e suas funções. "help comando" especifica mais sobre o comando.
+  help env
 
 HISTTIMEFORMAT="%d/%m/%y
   Descrição do comando
 
 
 hostname
-  Descrição do comando
-
+  Nome da máquina.
+  hostname
 
 ifconfig
-  Descrição do comando
-
+  IP do computador.
+  ifconfig
 
 last
-  Descrição do comando
-
+  Últimos usuários conectados.
+  las
 
 lastb
   Descrição do comando
 
 
 ls
-  Descrição do comando
-
+  Lista os diretórios e arquivos de seu diretório atual.
+  ls -F
 
 mkdir
-  Descrição do comando
+  Cria um diretório.
+  mkdir marcos/
 
-
-nome="fulano
-  Descrição do comando
-
+nome="fulano"
+  Cria uma variável 'nome' com valor 'fulano'.
+  variavel="valor"
 
 passswd
   Descrição do comando
 
 
 pwd
-  Descrição do comando
-
+  Diretório atual.
+  pwd
 
 set
   Descrição do comando
 
 
 tree
-  Descrição do comando
-
+  Mostra a árvore de diretórios.
+  tree
 
 tty
   Descrição do comando
 
 
 vim
-  Descrição do comando
-
+  Editor de arquivos.
+  vim arquivo
 
 wait
   Descrição do comando
