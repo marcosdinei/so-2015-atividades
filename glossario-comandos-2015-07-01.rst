@@ -18,10 +18,10 @@ cd
 
 cowsay
   Programa de mensagens.
-  cowsay -f kiss "beijo"
+  cowsay -l
 
 echo
-  Diz o nome de uma variável de ambiente.
+  Diz o nome de uma variável.
   echo $HOSTNAME
 
 env
@@ -29,7 +29,7 @@ env
   env
 
 exit
-  Sai de onde tá.
+  Desempilha os shells que foram criados.
   exit
 
 help
@@ -50,11 +50,11 @@ ifconfig
 
 last
   Últimos usuários conectados.
-  las
+  last $USER
 
 lastb
-  Descrição do comando
-
+  Últimas vezes que alguém tentou entrar no seu usuário
+  lastb $USER
 
 ls
   Lista os diretórios e arquivos de seu diretório atual.
@@ -62,7 +62,7 @@ ls
 
 mkdir
   Cria um diretório.
-  mkdir marcos/
+  mkdir -p marcos/dinei
 
 nome="fulano"
   Cria uma variável 'nome' com valor 'fulano'.
@@ -85,8 +85,8 @@ tree
   tree
 
 tty
-  Descrição do comando
-
+  Terminal no qual está conectado.
+  tty
 
 vim
   Editor de arquivos.
@@ -101,8 +101,8 @@ wall
 
 
 which
-  Descrição do comando
-
+  Mostra o diretório de um arquivo/programa/outro diretório.
+  which awk
 
 while
   Descrição do comando
